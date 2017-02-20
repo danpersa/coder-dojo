@@ -1,0 +1,222 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Pair Programming</title>
+
+		<meta name="description" content="Pair Programming">
+		<meta name="author" content="Dan Persa">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/custom.css">
+		<link rel="stylesheet" href="css/theme/serif.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section class="image-section more-opaque"
+                 data-background="images/pair-programming-cover.jpg">
+          <h1>Pair Programming</h1>
+					<p>
+						<small>slides by <a href="https://github.com/danpersa">Dan Persa</a> / <a href="http://twitter.com/danpersa">@danpersa</a></small>
+					</p>
+					<aside class="notes">
+					</aside>
+        </section>
+
+				<section data-markdown data-separator-notes="^Notes:">
+					<script type="text/template">
+						### What Is Pair Programming?
+						* Two developers working on the same task
+						* Both have the same target
+						* Both have different expertise
+						* One executes the task
+						* The other watches, evaluates the situation, corrects the other and validates success after execution
+						* Two developers working as a team
+					</script>
+				</section>
+
+				<section data-markdown data-separator-notes="^Notes:">
+					<script type="text/template">
+						### Pair Programming
+						![Pair Programming](images/paring-station.png)
+					</script>
+				</section>
+
+				<section data-markdown data-separator-notes="^Notes:">
+					<script type="text/template">
+						### How does Pair Programming work?
+						* Driver
+							* The “Driver” has control of the keyboard and focuses on the immediate task of coding.
+						* Navigator
+							* Tactical defects (syntax errors, calls to wrong method)
+							* Strategic errors (heading down wrong path)
+					</script>
+				</section>
+
+				<section data-markdown data-separator-notes="^Notes:">
+					<script type="text/template">
+						![Doing it worong](images/pair-programming-doing-it-wrong.jpg)
+					</script>
+				</section>
+
+				<section data-markdown data-separator-notes="^Notes:">
+					<script type="text/template">
+						### Isn’t this a waste?
+						* Two devs will do the work of one
+						* Junior devs will slow down seniors
+						* Less work will be done
+						* Why would I put two people on a job that just one can do?
+					</script>
+				</section>
+
+				<section data-markdown data-separator-notes="^Notes:">
+					<script type="text/template">
+						## Is Anybody Else Doing It?
+					</script>
+				</section>
+
+				<section data-markdown data-separator-notes="^Notes:">
+					<script type="text/template">
+						![Pair Programming Example](images/pair-programming-example-1.png)
+					</script>
+				</section>
+
+				<section data-markdown data-separator-notes="^Notes:">
+					<script type="text/template">
+						![Pair Programming Example](images/pair-programming-example-2.png)
+					</script>
+				</section>
+
+				<section data-markdown data-separator-notes="^Notes:">
+					<script type="text/template">
+						![Pair Programming Example](images/pair-programming-example-3.png)
+					</script>
+				</section>
+
+				<section data-markdown data-separator-notes="^Notes:">
+					<script type="text/template">
+						![Pair Programming Example](images/pair-programming-example-4.png)
+					</script>
+				</section>
+
+				<section data-markdown data-separator-notes="^Notes:">
+					<script type="text/template">
+						![Pair Programming Example](images/pair-programming-example-5.png)
+					</script>
+				</section>
+
+				<section data-markdown data-separator-notes="^Notes:">
+					<script type="text/template">
+						![Pair Programming Example](images/pair-programming-example-6.png)
+					</script>
+				</section>
+
+				<section data-markdown data-separator-notes="^Notes:">
+					<script type="text/template">
+						![Pair Programming Example](images/pair-programming-example-7.jpg)
+					</script>
+				</section>
+
+				<section data-markdown data-separator-notes="^Notes:">
+					<script type="text/template">
+						### Benefits Of Pair Programming
+
+						* Reduces Risk
+						* Knowledge is shared by rotating pairs
+						* Constant QA
+						* Second person prevents drift
+						* Learning and training
+					</script>
+				</section>
+
+				<section data-markdown data-separator-notes="^Notes:">
+					<script type="text/template">
+						### Benefits Of Pair Programming
+
+						* Best way to do Code Review
+						* Design quality
+						* Fewer interruptions
+						* Second person prevents drift
+						* X hours longer vs 15X hours bug fixing
+					</script>
+				</section>
+
+				<section data-markdown data-separator-notes="^Notes:">
+					<script type="text/template">
+						### Pair Programming Best Practices
+
+						* Change Pairs Often
+						* Switch Roles Often
+					</script>
+				</section>
+
+				<section data-markdown data-separator-notes="^Notes:"
+									class="image-section more-opaque"
+									data-background="images/karate-kata.jpg">
+					<script type="text/template">
+						Don’t Do 100% Pair Programming
+
+						> &ldquo;Pair programming doesn’t encourage quiet reflection and exploration. You can’t just sit back and read some code. You can’t just sit and think. I mean, you can, but then your pair is just sitting there.&rdquo;
+
+						<p align="right">*Mark Needham*</p>
+					</script>
+				</section>
+
+				<section data-markdown data-separator-notes="^Notes:"
+									class="image-section more-opaque"
+									data-background="images/ping-pong.jpg">
+					<script type="text/template">
+						### Ping Pong Pair Programming
+
+						* the observer writes a failing unit test
+						* the driver modifies the code to pass the unit test(s)
+						* the observer writes a new unit test
+						* and so on.
+					</script>
+				</section>
+
+				<section data-background="images/thats-all-folks.jpg" data-background-transition="zoom"></section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>
